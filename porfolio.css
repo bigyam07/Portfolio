@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Navbar */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 20px;
+}
+
+.logo {
+  color: #6f52e8;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #6F52E8;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.hero-left {
+  max-width: 600px;
+}
+
+.hero-left h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #444;
+}
+
+.hero-left h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.hero-left h1 span {
+  color: #6F52E8;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  letter-spacing: 3px;
+}
+
+#hire-btn {
+  background-color: #6F52E8;
+  color: white;
+}
+
+#hire-btn:hover {
+  opacity: 0.9;
+}
+
+#cv-btn {
+  background: white;
+  border: 2px solid #6F52E8;
+  color: #6F52E8;
+}
+
+#cv-btn:hover {
+  background: #6F52E8;
+  color: white;
+}
+
+/* Background big text */
+.bg-text {
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  font-size: 8rem;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.05);
+  z-index: 1;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  color: #666;
+}
+
+.follow-section h2 {
+  color: #6f52e8;
+  margin-bottom: 10px;
+}
+
+.follow-section i {
+  margin-inline: 4px;
+}
+
+.follow-section span {
+  margin-inline: 15px;
+  font-weight: bold;
+}
+
+/* ABOUT PAGE */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 90px;
+  margin-bottom: 12px;
+}
+
+.about-left img {
+  position: relative;
+  left: -10%;
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-right h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.about-right p {
+  color: #666;
+}
+
+/* CONTACT PAGE */
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-block {
+  height: 350px;
+  background-color: #6f52e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.contact-block h1 {
+  font-size: 3rem;
+  letter-spacing: 4px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 90px;
+  position: relative;
+}
+
+.contact-container div {
+  margin-bottom: 20px;
+}
+
+input {
+  display: flex;
+  padding: 10px;
+  width: 400px;
+  border: none;
+  box-shadow: 0 0 1px #666;
+  margin-bottom: 20px;
+}
+
+.msg-btn {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding: 20px 30px;
+}
+
+.contact-i {
+  color: #6f52e8;
+  position: relative;
+  top: 5px;
+}
+
+textarea {
+  width: 400px;
+  height: 150px;
+  border: none;
+  box-shadow: 0 0 1px #666;
+  padding: 10px;
+}
