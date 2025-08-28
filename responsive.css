@@ -1,0 +1,93 @@
+@media screen and (max-width: 1280px) {
+  .hero-left {
+    max-width: 400px;
+  }
+
+  .hero-left h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-left h3 {
+    font-size: 1.5rem;
+  }
+
+  .hero-right img {
+    width: 500px;
+  }
+
+  .about-left img {
+    width: 450px;
+    position: initial;
+  }
+
+  .about-right {
+    max-width: 500px;
+  }
+
+  .about-right h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-bar {
+    display: block;
+  }
+
+  .hero-right img {
+    display: none;
+  }
+
+  .hero-section {
+    justify-content: center;
+  }
+
+  .bg-text {
+    font-size: 6rem;
+  }
+
+  .about-section {
+    justify-content: center;
+  }
+
+  .about-left img {
+    display: none;
+  }
+
+  .contact-container {
+    gap: 22px;
+    flex-wrap: wrap;
+  }
+
+  .contact-section input {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contact-container {
+    justify-content: center;
+  }
+
+  .contact-section input,
+  textarea {
+    width: 100%;
+  }
+
+  .contact-block h1 {
+    font-size: 2rem;
+  }
+
+  .msg-btn {
+    bottom: -10%;
+    left: 0;
+  }
+
+  .bg-text {
+    font-size: 4rem;
+  }
+}

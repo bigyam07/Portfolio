@@ -60,14 +60,10 @@ ul {
 .hero-section {
   position: relative;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 0px;
   padding: 20px;
-}
-
-.hero-left {
-  max-width: 600px;
+  height: 76vh;
 }
 
 .hero-left h3 {
@@ -164,8 +160,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 90px;
-  margin-bottom: 12px;
+  height: 75vh;
+  gap: 20px;
 }
 
 .about-left img {
@@ -248,4 +244,30 @@ textarea {
   border: none;
   box-shadow: 0 0 1px #666;
   padding: 10px;
+}
+
+.menu-bar {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-list {
+  display: none;
+}
+
+.menu-list-items {
+  height: 300px;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  padding: 10px;
+}
+
+.menu-list a {
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
 }
