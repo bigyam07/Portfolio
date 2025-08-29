@@ -75,7 +75,7 @@
 
   .contact-section input,
   textarea {
-    width: 100%;
+    width: 20rem;
   }
 
   .contact-block h1 {
@@ -89,5 +89,37 @@
 
   .bg-text {
     font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  button {
+    font-size: 0.6rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .about-right h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-right p {
+    font-size: 0.9rem;
+  }
+
+  .footer-logo {
+    display: flex;
+    justify-content: center
+  }
+
+  .contact-container {
+    margin-block: 35px;
+    gap: 0px;
+  }
+
+  footer p {
+    font-size: 0.8rem;
   }
 }
