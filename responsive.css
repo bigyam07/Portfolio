@@ -120,6 +120,14 @@
 
   }
 
+  .construction-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .construction-container p {
+    font-size: 0.9rem;
+  }
+
   .contact-footer {
     margin-top: 80px;
   }
